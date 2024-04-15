@@ -3,8 +3,8 @@ package org.contactManagementSystem.dtos.requests;
 import lombok.Data;
 
 @Data
-public class LoginRequest {
+public class DeleteContactRequest {
     private String userName;
-    private String password;
+    private String firstName;
 
 }
